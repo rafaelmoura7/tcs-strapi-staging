@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "care_foundations",
+  "info": {
+    "singularName": "care-foundation",
+    "pluralName": "care-foundations",
+    "displayName": "Care Foundation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
